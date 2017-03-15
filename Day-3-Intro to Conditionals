@@ -1,0 +1,17 @@
+function main() {
+      var N = parseInt(readLine());
+  var statement = "";
+  if (N % 2 == 0) {
+    if (N <= 5) {
+      statement = "Not Weird"
+    } else if (N <= 20) {
+      statement = "Weird"
+    } else {
+      statement = "Not Weird"
+    }
+  } else {
+    statement = "Weird"
+  }
+  process.stdout.write(statement);
+
+}
